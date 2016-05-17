@@ -9,7 +9,7 @@ And it comes with it's own API schema inspired by the dweet.io API.
 ## Install
 
 ```bash
-npm install dwitio
+npm install dweetio
 ```
 
 ## Usage
