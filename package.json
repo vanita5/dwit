@@ -1,0 +1,41 @@
+{
+  "name": "dweetio",
+  "description": "dweet.io API (REST + Streaming)",
+  "version": "0.0.1",
+  "homepage": "https://github.com/vanita5/dweetio",
+  "author": {
+    "name": "vanita5",
+    "email": "mail@vanit.as"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanita5/dweetio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vanita5/dweetio/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "dweet",
+    "dweetio",
+    "dweet.io",
+    "API",
+    "Streaming",
+    "IOT"
+  ],
+  "dependencies": {
+    "request": "2.58.0",
+    "bluebird": "^3.1.5",
+    "mime": "^1.3.4"
+  },
+  "devDependencies": {
+    "mocha": "2.1.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "main": "./lib/twitter",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests/* -t 70000 -R spec --bail --globals domain,_events,_maxListeners"
+  }
+}
